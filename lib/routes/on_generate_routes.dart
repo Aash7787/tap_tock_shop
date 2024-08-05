@@ -6,7 +6,7 @@ import 'package:tap_tock_shop/pages/login_page.dart';
 import 'package:tap_tock_shop/pages/messages/all_messages_page.dart';
 import 'package:tap_tock_shop/pages/messages/message_detail_page.dart';
 import 'package:tap_tock_shop/pages/profile_page.dart';
-import 'package:tap_tock_shop/pages/sign_up_page.dart';
+import 'package:tap_tock_shop/pages/sign_up_page/sign_up_page.dart';
 
 Route<dynamic> onGenerateRoutes(RouteSettings settings) {
   return switch (settings.name) {
