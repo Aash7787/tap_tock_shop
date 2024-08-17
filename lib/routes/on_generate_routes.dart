@@ -2,10 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tap_tock_shop/pages/following_reel_page.dart';
 import 'package:tap_tock_shop/pages/for_you_reel_page.dart';
-import 'package:tap_tock_shop/pages/login_screen/login_page.dart';
-import 'package:tap_tock_shop/pages/messages/all_messages_page.dart';
-import 'package:tap_tock_shop/pages/messages/message_detail_page.dart';
-import 'package:tap_tock_shop/pages/profile_page.dart';
+import 'package:tap_tock_shop/pages/Welcome_page/welcome_page.dart';
+import 'package:tap_tock_shop/pages/messages/all_messages_page/all_messages_page.dart';
+import 'package:tap_tock_shop/pages/messages/messages_deatil_page/message_detail_page.dart';
+import 'package:tap_tock_shop/pages/profile%20page/profile_page.dart';
 import 'package:tap_tock_shop/pages/sign_up_page.dart';
 
 Route<dynamic> onGenerateRoutes(RouteSettings settings) {
@@ -16,8 +16,8 @@ Route<dynamic> onGenerateRoutes(RouteSettings settings) {
       ),
 
     // Login page
-    LoginPage.pageName => CupertinoPageRoute(
-        builder: (context) => const LoginPage(),
+    WelcomePage.pageName => CupertinoPageRoute(
+        builder: (context) => const WelcomePage(),
       ),
 
     // for you Reel page
