@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 import 'dart:developer' as developer;
 
 import 'package:flutter/widgets.dart';
-import 'package:tap_tock_shop/pages/For_you_reels_page/home_page.dart';
 
+
+import '../../For_you_reels_page/For_you_reel_page.dart';
 import '../../messages/all_messages_page/all_messages_page.dart';
 
 class WelcomePageWidget extends StatefulWidget {
@@ -160,7 +161,7 @@ Explore our vast selection''',
                           Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => HomePageView()
+                                  builder: (context) => ForYouReelsPageView()
                                 ));
                       },
                       child: const Text(

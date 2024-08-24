@@ -2,18 +2,18 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:tap_tock_shop/pages/messages/all_messages_page/all_messages_page.dart';
-import 'Home_page_widgets/home_page_reacts_buttons.dart';
 
-class HomePageView extends StatefulWidget {
-  const HomePageView({super.key});
+
+class ForYouReelsPageView extends StatefulWidget {
+  const ForYouReelsPageView({super.key});
 
   static const pageName = 'HomePageView';
 
   @override
-  State<HomePageView> createState() => _HomePageViewState();
+  State<ForYouReelsPageView> createState() => _ForYouReelsPageViewState();
 }
 
-class _HomePageViewState extends State<HomePageView> {
+class _ForYouReelsPageViewState extends State<ForYouReelsPageView> {
   @override
   Widget build(BuildContext context) {
     final Size(:width, :height) = MediaQuery.sizeOf(context);
