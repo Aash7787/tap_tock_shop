@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tap_tock_shop/pages/following_reel_page.dart';
-import 'package:tap_tock_shop/pages/for_you_reel_page.dart';
+import 'package:tap_tock_shop/pages/following_reel_page/following_reel_page.dart';
+import 'package:tap_tock_shop/pages/for_you_reel_page/for_you_reel_page.dart';
 import 'package:tap_tock_shop/pages/Welcome_page/welcome_page.dart';
 import 'package:tap_tock_shop/pages/messages/all_messages_page/all_messages_page.dart';
 import 'package:tap_tock_shop/pages/messages/messages_deatil_page/message_detail_page.dart';
 import 'package:tap_tock_shop/pages/profile%20page/profile_page.dart';
-import 'package:tap_tock_shop/pages/sign_up_page.dart';
+import 'package:tap_tock_shop/pages/sign_up_page/sign_up_page.dart';
 
 Route<dynamic> onGenerateRoutes(RouteSettings settings) {
   return switch (settings.name) {

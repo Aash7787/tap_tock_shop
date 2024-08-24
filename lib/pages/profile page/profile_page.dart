@@ -47,16 +47,16 @@ class _ProfilePageState extends State<ProfilePage> {
                               topLeft: Radius.circular(20),
                               topRight: Radius.circular(20)),
                           color: Colors.white),
-                          child:  Align(
-                      alignment: Alignment(0, -4),
-                      child: CircleAvatar(
-                        backgroundColor: Colors.black12,
-                        maxRadius: screenWidth * 0.15,
-                        backgroundImage: AssetImage('assets/images/images.png'),
-                      )),
+                      child: Align(
+                          alignment: const Alignment(0, -4),
+                          child: CircleAvatar(
+                            backgroundColor: Colors.black12,
+                            maxRadius: screenWidth * 0.15,
+                            backgroundImage:
+                                const AssetImage('assets/images/images.png'),
+                          )),
                     ),
                   ),
-                 
                 ],
               ),
               expandedHeight: 290,

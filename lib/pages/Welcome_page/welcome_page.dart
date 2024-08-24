@@ -12,7 +12,10 @@ class WelcomePage extends StatelessWidget {
       backgroundColor: Color.fromARGB(255, 245, 245, 245),
       body: Stack(
         children: [
-          Align(alignment: Alignment.bottomCenter, child: WelcomePageWidget()),
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: WelcomePageWidget(),
+          ),
         ],
       ),
     );
